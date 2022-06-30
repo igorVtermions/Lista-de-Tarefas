@@ -10,6 +10,7 @@
   body {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1B1919 ;
   }
   
@@ -117,8 +118,19 @@ hr{
   }
   
   @media (max-width: 775px) {
-    input {
+
+    figure img{
+      margin-left: 40px;
+    }
+
+    .divInsert{
       width: 70%;
+      margin-left:18%;
+    }
+
+    .textInsert {
+      width:100%;
+      margin-left: 20px;
     }
   
     .divInsert button {
@@ -130,7 +142,7 @@ hr{
       padding: 0px;
     }
   
-    p {
+    h2 {
       font-size: x-large;
     }
   }
