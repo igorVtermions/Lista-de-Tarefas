@@ -3,7 +3,7 @@ const btnInsert = document.querySelector('.divInsert button')
 const btnDeleteAll = document.querySelector('.header button')
 const ul = document.querySelector('ul')
 
-var itensDB = []
+let itensDB = []
 
 btnDeleteAll.onclick = () => {
   itensDB = []
